@@ -64,14 +64,22 @@ switch: Permite comparar una expresión con múltiples valores y ejecutar códig
 Estas estructuras condicionales son esenciales para controlar el flujo de un programa en Java.
         */
         
-        int edadAlumno = 17;
-        if (edadAlumno >= 18);
-            System.out.println("Es mayor de 18");(
-                    
-                    )else {
-                            System.out.println("Es menor de 18");
-                    }
-        
+       int edadAlumno = 17;
+
+if (edadAlumno >= 18) {
+    System.out.println("Es mayor de 18");
+} else {
+    System.out.println("Es menor de 18");
+}
+
+// BUCLES
+/*
+Crear un bucle que inicie en 1 y muestre hasta el número 5
+*/
+
+for (int i = 1; i <= 5; i++) {
+    System.out.println("Número: " + i);
+}
     }
     
 }
